@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: 'http://localhost:30000'
+      name: gateway,eureka
+      profile: 'local'

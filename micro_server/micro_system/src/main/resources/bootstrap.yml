@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: '@configUrl@'
+      name: system,eureka,log
+      profile: '@myLabel@'
